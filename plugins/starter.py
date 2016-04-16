@@ -57,6 +57,6 @@ def build_demo_attachment(txt):
 		"title_link" : "https://plus.google.com/u/0/communities/106555786480982014723/",
 		"text" : txt,
 		"fallback" : txt,
-		"image_url" : "https://storage.googleapis.com/beepboophq/_assets/bot-1.22f6fb.png",
+		"image_url" : "http://mycolorscreen.com/wp-content/uploads/wallpapers_2012/336154/you%20are%20the%20key.png",
 		"color" : "#7CD197",
     }
