@@ -35,7 +35,7 @@ def process_message(data):
 
     elif p_bot_attach.match(data['text']):
         txt = "Punkbot is a ridiculously Punk for Ohio Resistance."
-        attachments.append([data['channel'], txt, build_demo_welcome(txt)])
+        attachments.append([data['channel'], txt, build_demo_attachment(txt)])
 
     elif p_bot_help.match(data['text']):
         outputs.append([data['channel'], "{}".format(help_text)])
