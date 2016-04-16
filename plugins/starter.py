@@ -29,9 +29,9 @@ def process_message(data):
         outputs.append([data['channel'], "{}".format(random.choice(greetings))])
 
     elif p_bot_joke.match(data['text']):
-        outputs.append([data['channel'], "Why did the python cross the road?"])
+        outputs.append([data['channel'], "Why did the PuNk cross the road?"])
         outputs.append([data['channel'], "__typing__", 5])
-        outputs.append([data['channel'], "To eat the chicken on the other side! :laughing:"])
+        outputs.append([data['channel'], "To Hack the portal YO! :laughing:"])
 
     elif p_bot_attach.match(data['text']):
         txt = "Punkbot is a radical Punk for Ohio Resistance."
@@ -41,7 +41,7 @@ def process_message(data):
         outputs.append([data['channel'], "{}".format(help_text)])
 
     elif data['text'].startswith("punkbot"):
-        outputs.append([data['channel'], "I'm sorry, I don't know how to: `{}`".format(data['text'])])
+        outputs.append([data['channel'], "YO, This punk don't know how to: `{}`".format(data['text'])])
 
     elif data['channel'].startswith("D"):  # direct message channel to the bot
         outputs.append([data['channel'], "Hello, I'm the BeepBoop python starter bot.\n{}".format(help_text)])
