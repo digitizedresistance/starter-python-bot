@@ -19,7 +19,7 @@ help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
 # regular expression patterns for string matching
 p_bot_hi = re.compile("punkbot[\s]*hi")
 p_bot_joke = re.compile("punkbot[\s]*joke")
-p_bot_attach = re.compile("punkbot[\s]*attachment")
+p_bot_attach = re.compile("punkbot[\s]*welcome")
 p_bot_help = re.compile("punkbot[\s]*help")
 
 def process_message(data):
@@ -33,8 +33,8 @@ def process_message(data):
         outputs.append([data['channel'], "__typing__", 5])
         outputs.append([data['channel'], "To eat the chicken on the other side! :laughing:"])
 
-    elif p_bot_attach.match(data['text']):
-        txt = "Beep Beep Boop is a ridiculously simple hosting platform for your Slackbots."
+    elif p_bot_welcome.match(data['text']):
+        txt = "Punkbot is a ridiculously Punk for Ohio Resistance."
         attachments.append([data['channel'], txt, build_demo_attachment(txt)])
 
     elif p_bot_help.match(data['text']):
@@ -50,11 +50,11 @@ def process_mention(data):
     logging.debug("process_mention:data: {}".format(data))
     outputs.append([data['channel'], "You really do care about me. :heart:"])
 
-def build_demo_attachment(txt):
+def build_demo_welcome(txt):
     return {
-        "pretext" : "We bring bots to life. :sunglasses: :thumbsup:",
-		"title" : "Host, deploy and share your bot in seconds.",
-		"title_link" : "https://beepboophq.com/",
+        "pretext" : "We bring tears to FROGs. :sunglasses: :thumbsup:",
+		"title" : "Hack, deploy and share your tears in seconds.",
+		"title_link" : "https://plus.google.com/u/0/communities/106555786480982014723/",
 		"text" : txt,
 		"fallback" : txt,
 		"image_url" : "https://storage.googleapis.com/beepboophq/_assets/bot-1.22f6fb.png",
