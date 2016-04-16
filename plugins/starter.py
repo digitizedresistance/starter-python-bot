@@ -7,7 +7,7 @@ outputs = []
 attachments = []
 typing_sleep = 0
 
-greetings = ['Hi friend!', 'Hello there.', 'Howdy!', 'Wazzzup!!!', 'Hi!', 'Hey.']
+greetings = ['Hi friend!', 'Hello there.', 'Howdy!', 'Welcome', 'Hi!', 'Hey.']
 help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "I will kill you with the following messages: ",
     "`pybot hi` for a random greeting.",
