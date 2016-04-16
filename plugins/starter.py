@@ -7,12 +7,12 @@ outputs = []
 attachments = []
 typing_sleep = 0
 
-greetings = ['Hi friend!', 'Hello there.', 'Howdy!', 'Welcome', 'Hi!', 'Hey.']
+greetings = ['Hi friend!', 'Hello there.', 'Howdy!', '', 'Hi!', 'Hey.']
 help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "I will kill you with the following messages: ",
     "`punkbot hi` for a random greeting.",
     "`punkbot joke` for a question, typing indicator, then answer style joke.",
-    "`punkbot attachment` to see a Slack attachment message.",
+    "`punkbot welcome` to see a Slack attachment message.",
     "`@<your bot's name>` to demonstrate detecting a mention.",
     "`pybot help` to see this again.")
 
