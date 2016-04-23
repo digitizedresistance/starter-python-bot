@@ -31,7 +31,7 @@ def process_message(data):
     elif p_bot_joke.match(data['text']):
         outputs.append([data['channel'], "Why did the PuNk cross the road?"])
         outputs.append([data['channel'], "__typing__", 5])
-        outputs.append([data['channel'], "To Hack the portal YO! :laughing:"])
+        outputs.append([data['channel'], "To Hack the portal YO! :laughing: Cyber-Punk!"])
 
     elif p_bot_attach.match(data['text']):
         txt = "Punk is a radicalbot for RiChMoNd Resistance."
