@@ -57,6 +57,6 @@ def build_demo_attachment(txt):
 		"title_link" : "https://plus.google.com/communities/115151623822426436338",
 		"text" : txt,
 		"fallback" : txt,
-		"image_url" : "https://github.com/digitizedresistance/starter-python-bot/blob/master/RichmondResistance.jpg",
+		"image_url" : "https://s-media-cache-ak0.pinimg.com/236x/77/10/ab/7710abf5fc857090b68efe776cf0dad3.jpg",
 		"color" : "#7CD197",
     }
