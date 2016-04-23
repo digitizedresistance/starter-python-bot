@@ -40,8 +40,8 @@ def process_message(data):
     elif p_bot_help.match(data['text']):
         outputs.append([data['channel'], "{}".format(help_text)])
 
-    elif data['text'].startswith("punk"):
-        outputs.append([data['channel'], "YO, This punk don't know how to: `{}`".format(data['text'])])
+    elif data['text'].startswith("punk test"):
+        outputs.append([data['channel'], "YO, This punks laptop don't know how to: `{}`".format(data['text'])])
 
     elif data['channel'].startswith("D"):  # direct message channel to the bot
         outputs.append([data['channel'], "Hello, I'm the BeepBoop python starter bot.\n{}".format(help_text)])
