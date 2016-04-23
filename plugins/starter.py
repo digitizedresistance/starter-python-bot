@@ -17,10 +17,10 @@ help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "`Punk help` to see this again.")
 
 # regular expression patterns for string matching
-p_bot_hi = re.compile("punk[\s]*hi")
-p_bot_joke = re.compile("punk[\s]*joke")
-p_bot_attach = re.compile("punk[\s]*attachment")
-p_bot_help = re.compile("punk[\s]*help")
+p_bot_hi = re.compile("Punk[\s]*hi")
+p_bot_joke = re.compile("Punk[\s]*joke")
+p_bot_attach = re.compile("Punk[\s]*attachment")
+p_bot_help = re.compile("Punk[\s]*help")
 
 def process_message(data):
     logging.debug("process_message:data: {}".format(data))
