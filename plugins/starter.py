@@ -5,7 +5,6 @@ import logging
 crontable = []
 outputs = []
 attachments = []
-sl = []
 typing_sleep = 0
 
 greetings = ['Hi freak!', 'Hello mate.', 'Howdy!', 'Yo!', 'Hi!', 'Hey.']
@@ -46,7 +45,7 @@ def process_message(data):
     elif data['text'].startswith("Punk"):
         outputs.append([data['channel'], "YO, This punks laptop don't know how to: `{}`".format(data['text'])])
 
-elif data['text'].startswith("Punk sl"):
+    elif data['text'].startswith("Punk sl"):
         outputs.append([data['channel'], "https://plus.google.com/photos/+AlexaMayer/albums/6069486745282199137`{}`".format(data['text'])])
         
     elif data['channel'].startswith("D"):  # direct message channel to the bot
