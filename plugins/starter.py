@@ -9,7 +9,7 @@ typing_sleep = 0
 
 greetings = ['Hi freak!', 'Hello mate.', 'Howdy!', 'Yo!', 'Hi!', 'Hey.']
 help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
-    "Hello Mate I am cyber-punk Resistance bot: ",
+    "Hello Mate, I am cyber-punk Resistance bot: ",
     "`Punk hi` for a random greeting.",
     "`Punk joke` for a question, typing indicator, then answer style joke.",
     "`Punk attachment` to see a Slack attachment message.",
