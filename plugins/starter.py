@@ -9,11 +9,11 @@ typing_sleep = 0
 
 greetings = ['Hi freak!', 'Hello mate.', 'Howdy!', 'Yo!', 'Hi!', 'Hey.']
 help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
-    "I will kill you with the following messages: ",
+    "Hello Mate I am cyber-punk Resistance bot: ",
     "`Punk hi` for a random greeting.",
     "`Punk joke` for a question, typing indicator, then answer style joke.",
     "`Punk attachment` to see a Slack attachment message.",
-    "`@<your bot's name>` to demonstrate detecting a mention.",
+    "`Hi @<your bot's name>` to demonstrate detecting a mention.",
     "`Punk help` to see this again.")
 
 # regular expression patterns for string matching
