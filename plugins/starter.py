@@ -53,10 +53,10 @@ def process_mention(data):
 def build_demo_attachment(txt):
     return {
         "pretext" : "We bring tears to FROGs. :sunglasses: :thumbsup:",
-		"title" : "Hack, deploy and share your tears in seconds.",
-		"title_link" : "https://plus.google.com/u/0/communities/106555786480982014723/",
+		"title" : "Richmond Resistance Community.",
+		"title_link" : "https://plus.google.com/communities/115151623822426436338",
 		"text" : txt,
 		"fallback" : txt,
-		"image_url" : "http://mycolorscreen.com/wp-content/uploads/wallpapers_2012/336154/you%20are%20the%20key.png",
+		"image_url" : "",
 		"color" : "#7CD197",
     }
