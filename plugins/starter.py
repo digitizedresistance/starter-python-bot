@@ -57,6 +57,6 @@ def build_demo_attachment(txt):
 		"title_link" : "https://plus.google.com/communities/115151623822426436338",
 		"text" : txt,
 		"fallback" : txt,
-		"image_url" : "https://picsart.com/i/199131681001202",
+		"image_url" : "https://drive.google.com/file/d/0B3uiYZzTcdQTOHpDaEFLWHhNY3M/view?usp=drivesdk/",
 		"color" : "#7CD197",
     }
