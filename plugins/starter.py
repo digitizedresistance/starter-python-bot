@@ -7,7 +7,7 @@ outputs = []
 attachments = []
 typing_sleep = 0
 
-greetings = ['Hi friend!', 'Hello there.', 'Howdy!', 'Yo!', 'Hi!', 'Hey.']
+greetings = ['Hi freak!', 'Hello mate.', 'Howdy!', 'Yo!', 'Hi!', 'Hey.']
 help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "I will kill you with the following messages: ",
     "`punk hi` for a random greeting.",
@@ -17,9 +17,9 @@ help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "`punk help` to see this again.")
 
 # regular expression patterns for string matching
-p_bot_hi = re.compile("punkbot[\s]*hi")
-p_bot_joke = re.compile("punkbot[\s]*joke")
-p_bot_attach = re.compile("punkbot[\s]*attachment")
+p_bot_hi = re.compile("punk[\s]*hi")
+p_bot_joke = re.compile("punk[\s]*joke")
+p_bot_attach = re.compile("punk[\s]*attachment")
 p_bot_help = re.compile("punk[\s]*help")
 
 def process_message(data):
