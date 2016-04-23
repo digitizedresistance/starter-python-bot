@@ -10,11 +10,11 @@ typing_sleep = 0
 greetings = ['Hi freak!', 'Hello mate.', 'Howdy!', 'Yo!', 'Hi!', 'Hey.']
 help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "I will kill you with the following messages: ",
-    "`punk hi` for a random greeting.",
-    "`punk joke` for a question, typing indicator, then answer style joke.",
-    "`punk attachment` to see a Slack attachment message.",
+    "`Punk hi` for a random greeting.",
+    "`Punk joke` for a question, typing indicator, then answer style joke.",
+    "`Punk attachment` to see a Slack attachment message.",
     "`@<your bot's name>` to demonstrate detecting a mention.",
-    "`punk help` to see this again.")
+    "`Punk help` to see this again.")
 
 # regular expression patterns for string matching
 p_bot_hi = re.compile("punk[\s]*hi")
@@ -40,7 +40,7 @@ def process_message(data):
     elif p_bot_help.match(data['text']):
         outputs.append([data['channel'], "{}".format(help_text)])
 
-    elif data['text'].startswith("punk test"):
+    elif data['text'].startswith("Punk"):
         outputs.append([data['channel'], "YO, This punks laptop don't know how to: `{}`".format(data['text'])])
 
     elif data['channel'].startswith("D"):  # direct message channel to the bot
