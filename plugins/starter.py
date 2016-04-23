@@ -12,6 +12,7 @@ help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "Hello Mate, I am cyber-punk Resistance bot: ",
     "`Punk hi` for a random greeting.",
     "`Punk joke` for a question, typing indicator, then answer style joke.",
+    "`Punk sl` for smurfling lessons, typing indicator,"how","walk","portals","hacking","resonators"    "xmp","keys","linking","fielding","defensemods",                 "hackmods","linkamps","leveling","mu","cubes",                             "farming","terms","virus","placement",                           "campfire","ultrastrikes","anomaly",      "smartfarming","capsules","mufg","softbank",                        "store", "lawson"",
     "`Punk attachment` to see a Slack attachment message.",
     "`Hi @<your bot's name>` to demonstrate detecting a mention.",
     "`Punk help` to see this again.")
