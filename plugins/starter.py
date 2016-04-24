@@ -42,9 +42,6 @@ def process_message(data):
 
     elif data['text'].startswith("Punk"):
         outputs.append([data['channel'], "YO, This punks laptop don't know how to: `{}`".format(data['text'])])
-
-    elif p_bot_sl.match('text'),:
-        outputs.append([data['channel'], "https://plus.google.com/photos/+AlexaMayer/albums/6069486745282199137`{}`".format(data['text'])])
         
     elif data['channel'].startswith("D"):  # direct message channel to the bot
         outputs.append([data['channel'], "Hello, I'm the BeepBoop python starter bot.\n{}".format(help_text)])
