@@ -40,6 +40,9 @@ def process_message(data):
     elif p_bot_help.match(data['text']):
         outputs.append([data['channel'], "{}".format(help_text)])
 
+  elif data['text'].startswith("Punk"):
+        outputs.append([data['channel'], "YO, Who You Callin a: `{}`".format(data['text'])])
+            
     elif data['text'].startswith("Punk lessons"):
         outputs.append([data['channel'], "YO, This punks laptop knows how to: https://plus.google.com/photos/+AlexaMayer/albums/6069486745282199137 `{}`".format(data['text'])])
                 
