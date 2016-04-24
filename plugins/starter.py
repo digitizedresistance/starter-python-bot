@@ -43,7 +43,7 @@ def process_message(data):
     elif data['text'].startswith("Punk"):
         outputs.append([data['channel'], "YO, Who You Callin a: `{}`".format(data['text'])])
             
-    elif data['text'].startswith("Punk lessons"):
+    elif data['text'].startswith("Lessons"):
         outputs.append([data['channel'], "YO, This punks laptop knows how to: https://plus.google.com/photos/+AlexaMayer/albums/6069486745282199137 `{}`".format(data['text'])])
                 
     elif data['channel'].startswith("D"):  # direct message channel to the bot
