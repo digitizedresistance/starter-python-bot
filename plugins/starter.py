@@ -12,7 +12,6 @@ help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
     "Hello Mate, I am cyber-punk Resistance bot: ",
     "`Punk hi` for a random greeting.",
     "`Punk joke` for a question, typing indicator, then answer style joke.",
-    "`Punk sl` for smurfling lessons, typing indicator.",
     "`Punk attachment` to see a Slack attachment message.",
     "`Hi @<your bot's name>` to demonstrate detecting a mention.",
     "`Punk help` to see this again.")
@@ -20,7 +19,6 @@ help_text = "{}\n{}\n{}\n{}\n{}\n{}".format(
 # regular expression patterns for string matching
 p_bot_hi = re.compile("Punk[\s]*hi")
 p_bot_joke = re.compile("Punk[\s]*joke")
-p_bot_sl = re.compile("Punk[\s]*sl")
 p_bot_attach = re.compile("Punk[\s]*attachment")
 p_bot_help = re.compile("Punk[\s]*help")
 
